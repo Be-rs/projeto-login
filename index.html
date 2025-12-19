@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media queries.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="foto">
+
+            </div>
+            <div id="usuario">
+                <h1>Login</h1>
+                <p>Seja Bem-Vindo, faça seu login para ter acesso a sua conta.</p>
+
+                <form action="login.php" method="post" autocomplete="on">
+
+                    <div class="campo">
+
+                       <span class="material-symbols-outlined">
+                            stacked_email
+                            </span>
+
+                       <input type="email" name="pessoa" id="pessoa" placeholder="seu e-mail" autocomplete="email" required minlength="3" maxlength="30">
+
+                        <label for="pessoa">Login</label>
+                    </div>
+                    <div class="campo">
+
+                        <span class="material-symbols-outlined">lock </span>
+
+                        <input type="password" name="senha" id="senha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="10">
+
+                        <label for="senha">Senha</label>
+                    </div>
+                        <input type="submit" value="Entrar">
+                        <a href="#">Esquesi a senha</a>
+
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

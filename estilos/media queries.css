@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*.color1 { #e0eff1 cinza claro};
+.color2 { #7db4b5 }; azul claro cinza
+.color3 { #ffffff };
+.color4 { #680148 }; vinho
+.color5 { #000000 }; */ 
+
+@media screen and (min-width:600px) and (max-width:900px){
+
+    body{
+        background-image: linear-gradient(to top, #680148,#7db4b5 );
+    }
+    section#login{
+        width: 80vw;
+        height: 325px;
+    }
+    section#login > div#foto{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#usuario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:900px){
+
+section#login{
+    width: 950px;
+   height: 325px;
+}
+
+section#login > div#foto{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+section#login > div#usuario{
+    float: left;
+    width: 50%;
+}
+
+ body{
+        background-image: linear-gradient(to top, #680148,#7db4b5 );}
+
+}
+
+div#usuario > h1{
+text-align: center;
+padding: 10px;
+font-size: 2em;
+}
+
+div#usuario > p{
+    font-size: 1em;
+}
